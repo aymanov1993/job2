@@ -7,6 +7,7 @@ pipeline {
 			    script {
                     sh 'echo "job2"'
 			    }
+		    sleep 90s
             }
         }
     }
